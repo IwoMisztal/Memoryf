@@ -1,0 +1,42 @@
+.container {
+    height: 100vh;
+   margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    align-items: center;
+}
+
+
+
+button, .moves, .score {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    background: #7A7A95;
+    border: none;
+    width: 100%;
+    height: 15vh;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.board {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.tile {
+    height: 15vw;
+    width: 15vw;
+    background: #7A7A95;
+    border: 1px solid #000;
+    border-radius: 3px;
+   
+}
